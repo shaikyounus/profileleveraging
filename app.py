@@ -113,7 +113,7 @@ def upload_file():
         for f in request.files.getlist('customerfile'):
             f.save(os.path.join(app.config['UPLOAD_FOLDER'], f.filename))
             
-        x = (app.config['UPLOAD_FOLDER'])
+        x = os.listdir(app.config['UPLOAD_FOLDER'])
         return render_template("resultlist.html", name=x)
     
 @app.route('/uploadjdDesc', methods=['GET', 'POST'])
