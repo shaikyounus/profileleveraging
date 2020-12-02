@@ -9,7 +9,7 @@ from flask import (Flask, json, Blueprint, jsonify, redirect, render_template, r
 from gensim.summarization import summarize
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
-from werkzeug import secure_filename
+#from werkzeug import secure_filename
 
 #import pdf2txt as pdf
 import PyPDF2
