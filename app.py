@@ -23,8 +23,8 @@ app.config.update(dict(
 ))
 
 
-app.config['UPLOAD_FOLDER'] = r'https://github.com/shaikyounus/profileleveraging/Upload-Resume'
-app.config['UPLOAD_JD_FOLDER'] = r'https://github.com/shaikyounus/profileleveraging/Upload-Jobdescription'
+app.config['UPLOAD_FOLDER'] = r'Upload-Resume'
+app.config['UPLOAD_JD_FOLDER'] = r'Upload-Jobdescription'
 app.config['ALLOWED_EXTENSIONS'] = set(['txt', 'pdf', 'doc', 'docx'])
 
 class jd:
