@@ -13,7 +13,6 @@ gensim
 sklearn
 PyPDF2
 requests
-os
 globals
 warnings
 bs4
