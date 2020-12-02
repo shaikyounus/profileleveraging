@@ -87,7 +87,7 @@ def res():
 @app.route('/results', methods=['GET', 'POST'])
 def res():
     if request.method == 'POST':
-        os.chdir(app.config['UPLOAD_JD_FOLDER'])
+        (app.config['UPLOAD_JD_FOLDER'])
         file = glob.glob('*.xlsx', recursive=False)
         data_set = pd.read_excel(file[0])
         search_st = data_set['High Level Job Description'][0]
@@ -113,7 +113,7 @@ def upload_file():
         for f in request.files.getlist('customerfile'):
             f.save(os.path.join(app.config['UPLOAD_FOLDER'], f.filename))
             
-        x = os.listdir(app.config['UPLOAD_FOLDER'])
+        x = (app.config['UPLOAD_FOLDER'])
         return render_template("resultlist.html", name=x)
     
 @app.route('/uploadjdDesc', methods=['GET', 'POST'])
@@ -132,13 +132,13 @@ def upload_jd_file():
         for f in request.files.getlist('customerfile'):
             f.save(os.path.join(app.config['UPLOAD_JD_FOLDER'], f.filename))
             
-        x = os.listdir(app.config['UPLOAD_JD_FOLDER'])
+        x = (app.config['UPLOAD_JD_FOLDER'])
         return render_template("resultlist.html", name=x)
 		
 
 @app.route('/resultsearch' ,methods = ['POST', 'GET'])
 def resultsearch():
-    os.chdir(app.config['UPLOAD_JD_FOLDER'])
+    (app.config['UPLOAD_JD_FOLDER'])
     file = glob.glob('*.xlsx', recursive=False)
     data_set = pd.read_excel(file[0])
     search_st = data_set['High Level Job Description'][0]
