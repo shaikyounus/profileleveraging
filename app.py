@@ -89,7 +89,7 @@ def res():
     if request.method == 'POST':
         #os.chdir(app.config['UPLOAD_JD_FOLDER'])
         #file = glob.glob('*.xlsx', recursive=False)
-        data_set = pd.read_excel(jd.xlsx)
+        data_set = pd.read_excel(job_desc_document.xlsx)
         search_st = data_set['High Level Job Description'][0]
         skill_text = data_set['Technology'][0] + data_set['Primary Skill'][0]
         jd_exp = data_set['Yrs Of Exp '][0]
@@ -138,9 +138,9 @@ def upload_jd_file():
 
 @app.route('/resultsearch' ,methods = ['POST', 'GET'])
 def resultsearch():
-    (app.config['UPLOAD_JD_FOLDER'])
-    file = glob.glob('*.xlsx', recursive=False)
-    data_set = pd.read_excel(file[0])
+    #(app.config['UPLOAD_JD_FOLDER'])
+    #file = glob.glob('*.xlsx', recursive=False)
+    data_set = pd.read_excel(job_desc_document.xlsx)
     search_st = data_set['High Level Job Description'][0]
     result = search.res(search_st)
     # return result
