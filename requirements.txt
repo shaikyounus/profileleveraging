@@ -16,3 +16,4 @@ requests
 globals
 bs4
 inflect
+word2number
