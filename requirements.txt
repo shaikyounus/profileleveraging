@@ -13,9 +13,7 @@ io
 pdfminer
 gensim
 sklearn
-werkzeug
 PyPDF2
-PyPDF
 requests
 os
 globals
