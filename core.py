@@ -79,7 +79,7 @@ def res(jobfile,skillset,jd_exp,min_qual):
     not_found = 'Not Found'
     extract_exp = ExtractExp()
     
-    resumePath = r'F:\Capstone\Profile-Leveraging\Upload-Resume'
+    resumePath = r'https://github.com/shaikyounus/profileleveraging/Upload-Resume'
     
     for file in glob.glob(resumePath+'/*.pdf'):
         LIST_OF_FILES_PDF.append(file)
