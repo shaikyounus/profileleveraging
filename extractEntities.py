@@ -10,6 +10,7 @@ import en_core_web_sm
 
 
 #Function to extract names from the string using spacy
+"""
 def extract_name(resume):
    
    # Load English tokenizer, tagger, parser, NER and word vectors
@@ -20,7 +21,8 @@ def extract_name(resume):
         if(ent.label_ == 'PER'):
             #print(ent.text)
             break 
-    return ent.text                  
+    return ent.text     
+"""
 
 #Function to extract Phone Numbers from string using regular expressions
 def extract_phone_numbers(string):
