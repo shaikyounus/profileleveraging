@@ -6,7 +6,7 @@ from nltk.corpus import wordnet
 #from text_process import remove_stopwords, to_lowercase
 from getCategory import programmingScore
 from collections import Counter
-import en_core_web_sm
+#import en_core_web_sm
 
 
 #Function to extract names from the string using spacy
