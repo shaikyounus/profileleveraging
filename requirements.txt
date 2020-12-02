@@ -17,3 +17,4 @@ globals
 bs4
 inflect
 word2number
+pandas
