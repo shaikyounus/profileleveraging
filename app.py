@@ -132,7 +132,7 @@ def upload_jd_file():
         for f in request.files.getlist('customerfile'):
             f.save(os.path.join(app.config['UPLOAD_JD_FOLDER'], f.filename))
             
-        x = listdir(app.config['UPLOAD_JD_FOLDER'])
+        x = os.listdir(app.config['UPLOAD_JD_FOLDER'])
         return render_template("resultlist.html", name=x)
 		
 
