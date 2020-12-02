@@ -304,8 +304,8 @@ def res(jobfile,skillset,jd_exp,min_qual):
             Resume_non_skill_list.append(skills.NonTechnicalSkillScore(temptext,jobfile+skillset,progWords = None))
             experience = extract_exp.get_features(temptext)
             Resume_name_vector.append(experience)
-            temp_applicantName = entity.extractPersonName(temptext, Resume_title[index])
-            Resume_ApplicantName_vector.append(temp_applicantName)
+            #temp_applicantName = entity.extractPersonName(temptext, Resume_title[index])
+            #Resume_ApplicantName_vector.append(temp_applicantName)
             temp_phone = entity.extract_phone_numbers(temptext)
             if(len(temp_phone) == 0):
                 Resume_phoneNo_vector.append(not_found)
