@@ -3,7 +3,7 @@ import spacy
 import re
 import nltk
 from nltk.corpus import wordnet
-from text_process import remove_stopwords, to_lowercase
+#from text_process import remove_stopwords, to_lowercase
 from getCategory import programmingScore
 from collections import Counter
 import en_core_web_sm
@@ -50,8 +50,8 @@ def extractPersonName(tttt, resumeTitle):
             if not wordnet.synsets(Nouns):
                 #Not an English word
                 Names.append(Nouns)
-        titleSplit_lower = to_lowercase(Names)
-        titleSplit_cleaned = remove_stopwords(titleSplit_lower)
+        #titleSplit_lower = to_lowercase(Names)
+        #titleSplit_cleaned = remove_stopwords(titleSplit_lower)
         personName = "ABC"
         if len(titleSplit_cleaned) > 0:
             if len(titleSplit_cleaned) == 1:
