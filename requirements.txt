@@ -14,6 +14,5 @@ sklearn
 PyPDF2
 requests
 globals
-warnings
 bs4
 inflect
