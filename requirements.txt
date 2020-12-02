@@ -19,3 +19,4 @@ inflect
 word2number
 pandas
 striprtf
+werkzeug
