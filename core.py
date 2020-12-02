@@ -79,7 +79,7 @@ def res(jobfile,skillset,jd_exp,min_qual):
     not_found = 'Not Found'
     extract_exp = ExtractExp()
     
-    resumePath = r'Upload-Resume'
+    resumePath = globals.rootpath+globals.pathSeprator+'Upload-Resume'
     
     for file in glob.glob(resumePath+'/*.pdf'):
         LIST_OF_FILES_PDF.append(file)
