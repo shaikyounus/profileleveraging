@@ -20,3 +20,4 @@ word2number
 pandas
 striprtf
 autocorrect
+wordnet
