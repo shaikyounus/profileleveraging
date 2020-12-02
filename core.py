@@ -78,7 +78,7 @@ def res(jobfile,skillset,jd_exp,min_qual):
     jd_weightage = 15
     not_found = 'Not Found'
     extract_exp = ExtractExp()
-    
+    """
     resumePath = r'Upload-Resume'
     
     for file in glob.glob(resumePath+'/*.pdf'):
@@ -96,6 +96,8 @@ def res(jobfile,skillset,jd_exp,min_qual):
     # LIST_OF_FILES.remove("antiword.exe")
     print("This is LIST OF FILES")
     print(LIST_OF_FILES)
+    """
+    LIST_OF_FILES=['resume.txt','teja.rtf']
 
     
     print("####### PARSING ########")
