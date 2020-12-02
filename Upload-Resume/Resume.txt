@@ -1,0 +1,181 @@
+Younus Shaik
+
+Computer Science and Enginnering Undergraduate
+
+4-105/A
+LAM
+Guntur 522034
+
+7013207125
+
+https://shaikyounus.github.io/MySimplePort
+folio/dist/index.html
+
+shaikyounusshaik@gmail.com
+
+Mohammad Younus Shaik
+
+OBJECTIVE
+
+Having an engineering foundation with my strong interest in  Computer Science and Engineering ! 
+
+Motivated me to pursue diverse projects and Internships over the  elds of web development and Data Scraping.
+My work experience and background have allowed me to be adaptable and enjoy learning new technical skills while demonstrating strong interpersonal 
+skills
+I enjoy working in collaborative environments and building genuine relationships.
+
+WORK EXPERIENCE
+Kindbeings (Startup)
+Full stack Web Developer
+
+Designing ,Developing and working with remote MySQL Database Management.
+Working with Restful APIs  
+
+50hands (Canadian Non-Proift Organisation)
+Technology Intern
+
+(April 2020 - June 2020)
+
+(May 2020 - July 2020)
+
+Part of Data ETL  team .  
+Responsibilities is to scrap the COVID-19 data of India, Canada and USA using government APIs and working with remote MySQL database.
+
+EDUCATION
+Vellore Institute Of Technology, Amaravathi
+B.TECH Computer Science and Engineering
+
+Sri Chaitanya Junior College
+XII M.P.C
+
+Sri Chaitanya High School
+Secondary School
+
+PROJECTS
+COVID 19 Data
+https://github.com/shaikyounus/50Hands_Internship
+
+Collect COVID -19 data from Json data and convert them to CSV. 
+Load the CSV  les into 50hands remote Mysql database. 
+
+Cloud Computing Project
+https://github.com/shaikyounus/Cloud-Computing-AWS-EC2-web-project-deploy
+
+Worked with AWS EC2 Instance, Putty and FileZilla
+Web project deployed on AWS cloud.
+
+DonateKart
+https://github.com/shaikyounus/DonateKart
+
+Developed an online donation platform with PHP language.
+Worked with HTML, CSS and JavaScript.
+
+Missing Person
+https://github.com/shaikyounus/Missing-Person-Php
+
+Developed Missing Person website helpful to identify missing person.
+Developed using HTML, CSS and JavaScript and PHP languages.
+
+Android News App
+https://github.com/shaikyounus/Android-News-App
+
+An app which shows breaking news, headlines and search for articles from news sources and blogs all over the web with our news API.
+Developed using Java language.
+
+Swarm Robotics
+https://github.com/shaikyounus/Swarm-Robotics
+
+Programmed two robots which communicate and coordinate among 
+themselves and shown Master and Slave robot interaction.
+Developed with Microcontroller boards.
+
+Voice To Visual
+https://github.com/shaikyounus/Voice-To-Visual
+
+Speech Recognition Using Microphone and displays the text on 
+LCD screen display. 
+Developed using Google speech Recognition API, integrated with Raspberry pi 3 
+board.
+
+Web Scrapping
+https://github.com/shaikyounus/Python-WebScrap
+
+(July 2017 - April 2021)
+8.56
+
+(June 2015 - April 2017)
+97.7%
+
+(June 2014 - April 2015)
+9.7
+
+May 2020
+
+June 2020
+
+May 2020
+
+May 2020
+
+May 2020
+
+March 2020
+
+October 2018
+
+March 2020
+
+A Python project to  scrap the Linkedin urls  of speci ed  Company  employees in the goolge search query and send the data to gmail using Selenium and  
+SMTP modules.
+
+HOBBIES
+Chess
+
+Badminton
+
+Coding
+
+CERTIFICATIONS
+DataStructures
+Coursera
+
+Advanced Java Programming
+Linkedin
+
+SKILLS
+Java
+Intermediate
+
+Operating Systems
+Intermediate
+
+Cloud Computing
+Intermediate
+
+High level System Design
+Intermediate
+
+Telugu
+Native
+
+LANGUAGES
+English
+Intermediate
+
+Hindi
+Native
+
+April 2020
+
+April 2020
+
+Computer Networks
+Intermediate
+
+Mysql
+Intermediate
+
+Object Oriented Analysis
+Intermediate
+
+
