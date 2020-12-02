@@ -87,9 +87,9 @@ def res():
 @app.route('/results', methods=['GET', 'POST'])
 def res():
     if request.method == 'POST':
-        (app.config['UPLOAD_JD_FOLDER'])
-        file = glob.glob('*.xlsx', recursive=False)
-        data_set = pd.read_excel(file[0])
+        #os.chdir(app.config['UPLOAD_JD_FOLDER'])
+        #file = glob.glob('*.xlsx', recursive=False)
+        data_set = pd.read_excel(jd.xlsx)
         search_st = data_set['High Level Job Description'][0]
         skill_text = data_set['Technology'][0] + data_set['Primary Skill'][0]
         jd_exp = data_set['Yrs Of Exp '][0]
