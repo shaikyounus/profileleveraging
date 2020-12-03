@@ -338,9 +338,9 @@ def res(jobfile,skillset,jd_exp,min_qual):
         #print(Resume_nonTechSkills_vector)
         #print(Resume_exp_vector)
         
-        final_rating = round(similarity*jd_weightage,2)+Resume_skill_vector.__getitem__(index)+Resume_nonTechSkills_vector.__getitem__(index)
+        final_rating = round((similarity*jd_weightage)*0.33,2)+Resume_skill_vector.__getitem__(index)*(0.33)
         
-        res = ResultElement(round(similarity*jd_weightage,2), os.path.basename(tempList.__getitem__(index)),round(Resume_skill_vector.__getitem__(index),2),
+        res = ResultElement(round((similarity*jd_weightage)*0.33),2), os.path.basename(tempList.__getitem__(index)),round(Resume_skill_vector.__getitem__(index),2)*0.33,
                            Resume_name_vector.__getitem__(index), Resume_phoneNo_vector.__getitem__(index),Resume_email_vector.__getitem__(index),
                            Resume_nonTechSkills_vector.__getitem__(index),Resume_exp_vector.__getitem__(index),round(final_rating,2),Resume_skill_list.__getitem__(index),
                            Resume_non_skill_list.__getitem__(index),min_qual_vector.__getitem__(index),is_min_qual.__getitem__(index))
