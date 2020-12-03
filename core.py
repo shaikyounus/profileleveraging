@@ -97,7 +97,7 @@ def res(jobfile,skillset,jd_exp,min_qual):
     print("This is LIST OF FILES")
     print(LIST_OF_FILES)
     """
-    LIST_OF_FILES=['Resume.pdf','teja.rtf','tejareddy.txt']
+    LIST_OF_FILES=['teja.rtf']
 
     
     print("####### PARSING ########")
