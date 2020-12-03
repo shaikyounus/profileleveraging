@@ -7,7 +7,7 @@ import core
 import search
 import pandas as pd
 import nltk
-nltk.download('maxent_ne_chunker')
+#nltk.download('maxent_ne_chunker')
 
 warnings.filterwarnings(action='ignore', category=UserWarning, module='gensim')
 
